@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/popularVideoFragment">
+
+    <fragment
+        android:id="@+id/popularVideoFragment"
+        android:name="com.example.capstoneproject.fragments.PopularVideoFragment"
+        android:label="@string/Popular"
+        tools:layout="@layout/fragment_popular_video" />
+    <fragment
+        android:id="@+id/topRatedVideoFragment"
+        android:name="com.example.capstoneproject.fragments.TopRatedVideoFragment"
+        android:label="@string/TopRated"
+        tools:layout="@layout/fragment_top_rated_video" />
+    <fragment
+        android:id="@+id/upcomingFragment"
+        android:name="com.example.capstoneproject.fragments.UpcomingFragment"
+        android:label="@string/UpComing"
+        tools:layout="@layout/fragment_upcoming" />
+</navigation>
