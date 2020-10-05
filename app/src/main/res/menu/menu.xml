@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/popularVideoFragment"
-        android:icon="@drawable/ic_popular"
-        android:title="Popular" />
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
     <item
         android:id="@+id/topRatedVideoFragment"
         android:icon="@drawable/ic_top"
@@ -13,4 +14,8 @@
         android:id="@+id/upcomingFragment"
         android:icon="@drawable/ic_coming"
         android:title="Up Coming" />
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/ic_acc"
+        android:title="Account" />
 </menu>
