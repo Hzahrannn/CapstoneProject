@@ -22,7 +22,7 @@
         tools:layout="@layout/fragment_upcoming" />
     <fragment
         android:id="@+id/login"
-        android:name="com.example.capstoneproject.BlankFragment"
+        android:name="com.example.capstoneproject.fragments.BlankFragment"
         android:label="Account"
         tools:layout="@layout/fragment_blank" />
 </navigation>
