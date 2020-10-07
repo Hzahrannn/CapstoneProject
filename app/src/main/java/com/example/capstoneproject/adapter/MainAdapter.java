@@ -13,17 +13,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.capstoneproject.DetailActivity;
 import com.example.capstoneproject.R;
+import com.example.capstoneproject.fragments.PopularVideoFragment;
 import com.example.capstoneproject.model.Model;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
-    private Context context;
+    private Context Context;
     private List<Model> Model = new ArrayList<>();
 
-    public MainAdapter(Context context, List<Model> Model) {
-        this.context = context;
+    public MainAdapter(PopularVideoFragment context, List<Model> Model) {
+        this.Context = Context;
         this.Model = Model;
     }
 
@@ -42,10 +43,10 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         holder.cvKlik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, DetailActivity.class);
-                intent.putExtra("nama_barang", holder.tvNamaMovie.getText().toString().trim());
-                intent.putExtra("qty", holder.tvRATE.getText().toString().trim());
-                context.startActivity(intent);
+                Intent intent = new Intent(Context, DetailActivity.class);
+                intent.putExtra("nama_movie", holder.tvNamaMovie.getText().toString().trim());
+                intent.putExtra("rate", holder.tvRATE.getText().toString().trim());
+                Context.startActivity(intent);
             }
         });
     }
