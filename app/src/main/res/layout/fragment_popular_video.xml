@@ -8,9 +8,11 @@
     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Popular"
+        android:textSize="20sp"/>
 
 </LinearLayout>
