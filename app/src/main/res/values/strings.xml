@@ -31,4 +31,11 @@
 
     <string name="txt_welcome">Selamat datang</string>
     <string name="btn_logout">Logout</string>
+
+    <string name="alarm_on_toast">Notification On</string>
+    <string name="alarm_off_toast">Notification Off!</string>
+    <string name="notification_title">Recycler Movie App</string>
+    <string name="notification_text">Ayo Buka Aplikasinya!</string>
+    <string name="alarm_off">Notification off</string>
+    <string name="alarm_on">Notification on</string>
 </resources>
