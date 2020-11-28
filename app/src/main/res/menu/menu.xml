@@ -18,4 +18,8 @@
         android:id="@+id/login"
         android:icon="@drawable/ic_acc"
         android:title="Account" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_acc"
+        android:title="About Us" />
 </menu>
