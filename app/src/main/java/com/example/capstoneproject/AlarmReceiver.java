@@ -17,12 +17,7 @@ public class AlarmReceiver extends BroadcastReceiver {
     private static final String PRIMARY_CHANNEL_ID =
             "primary_notification_channel";
 
-    /**
-     * Called when the BroadcastReceiver receives an Intent broadcast.
-     *
-     * @param context The Context in which the receiver is running.
-     * @param intent The Intent being received.
-     */
+
     @Override
     public void onReceive(Context context, Intent intent) {
         mNotificationManager = (NotificationManager)
