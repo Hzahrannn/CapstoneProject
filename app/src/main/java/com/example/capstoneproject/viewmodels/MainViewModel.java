@@ -39,9 +39,7 @@ public class MainViewModel extends ViewModel{
                 .build();
     }
 
-    public LiveData<PagedList<Result>> geLlistLiveData(){
+    private LiveData<PagedList<Result>> getListLiveData(){
         return listLiveData;
     }
-
-
 }

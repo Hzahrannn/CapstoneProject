@@ -5,9 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".fragments.TopRatedVideoFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/tr"
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Top Rated"
+        android:textSize="20sp"/>
 
 </FrameLayout>

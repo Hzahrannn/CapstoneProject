@@ -7,10 +7,6 @@ public class Constant {
     public static final String BASE_URL = "https://api.themoviedb.org/3/";
     public static final String APIKEY = BuildConfig.API_KEY;
     public static final String LANGUAGE = "en-IN";
-
-    public static final String IMAGE_SIZE = "w185";
-    public static final String IMAGE_URL = "https://image.tmdb.org/t/p/";
-
     public static final int PAGE_ONE = 1;
     public static final int PREVIOUS_PAGE_KEY_ONE = 1;
     public static final int PREVIOUS_PAGE_KEY_TWO = 2;

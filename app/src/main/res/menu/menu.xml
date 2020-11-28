@@ -18,5 +18,4 @@
         android:id="@+id/login"
         android:icon="@drawable/ic_acc"
         android:title="Account" />
-
 </menu>

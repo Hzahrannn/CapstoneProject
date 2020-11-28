@@ -16,14 +16,14 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField 'String',"API_KEY",movieapi
+            buildConfigField 'string',"API_KEY",movieapi
             resValue 'string',"api_key",movieapi
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
-            buildConfigField 'String',"API_KEY",movieapi
+            buildConfigField 'string',"API_KEY",movieapi
             resValue 'string',"api_key",movieapi
         }
 
@@ -34,8 +34,6 @@ android {
 
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.room:room-runtime:2.2.5'
-    annotationProcessor 'androidx.room:room-compiler:2.2.5'
     def nav_version = "2.1.0-rc01"
     def lifecycle_version = "2.0.0"
     def paging_version = "2.1.0"
@@ -64,5 +62,5 @@ dependencies {
     //Paging
     implementation "androidx.paging:paging-runtime:$paging_version"
 
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.picasso:picasso:2.7828'
 }
